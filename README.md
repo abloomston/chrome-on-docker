@@ -19,7 +19,7 @@ I have also downloaded `chrome.json` so that it may save you an additional step.
 ## Instructions
 
 - Build the image using : `docker build . -t "google-chrome"`
-- You need X server or some sort, like XQuartz.: `brew cask install xquartz`
+- You need X server or some sort, like XQuartz.: `brew install --cask xquartz`
 - Open the `xterm` application from XQuartz (Right Click on XQuartz dock icon, Applications -> Terminal)
 - Now from within the xterm,
   - cd to directory where you cloned this.
